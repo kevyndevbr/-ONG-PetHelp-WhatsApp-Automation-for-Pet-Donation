@@ -11,19 +11,21 @@ A aplicação gerencia interações automáticas, envia respostas personalizadas
 - Relatórios de conversas e doações
 - Integração com CRM interno da ONG
 
-| Tecnologia / Biblioteca              | Finalidade                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| **Node.js**                          | Ambiente de execução do JavaScript no servidor                                                          |
-| **Express.js**                       | Criação de rotas e API REST para integração com o WhatsApp e o painel administrativo                    |
-| **Baileys** (ou **whatsapp-web.js**) | Comunicação direta com a API não oficial do WhatsApp Web, envio e recebimento de mensagens              |
-| **MySQL** (ou MongoDB)               | Armazenamento de dados dos doadores, histórico de conversas e estatísticas                              |
-| **dotenv**                           | Armazenar credenciais e variáveis sensíveis de forma segura                                             |
-| **nodemon**                          | Facilitar o desenvolvimento reiniciando automaticamente o servidor a cada alteração no código           |
-| **Socket.IO**                        | Comunicação em tempo real entre o servidor e o painel web para monitoramento das conversas              |
-| **cors**                             | Habilitar conexões de outros domínios, garantindo segurança na API                                      |
-| **axios**                            | Consumo de APIs externas, caso seja necessário integrar com gateways de pagamento ou plataformas de CRM |
-| **jsonwebtoken (JWT)**               | Controle de autenticação e segurança no acesso ao painel administrativo                                 |
+## 🛠 Tecnologias Utilizadas
 
+- **Node.js** – execução do código no servidor  
+- **Express.js** – criação da API  
+- **whatsapp-web.js** – integração com WhatsApp  
+- **MySQL** – armazenamento de dados dos doadores  
+- **dotenv** – gerenciamento de variáveis de ambiente  
+
+
+## 📚 O que Aprendi
+
+- Integrar e automatizar mensagens no WhatsApp usando Node.js.  
+- Criar respostas automáticas e gerenciar múltiplos atendimentos.  
+- Salvar e organizar dados de doadores no banco de dados.  
+- Proteger credenciais e manter o código organizado.
 
 
 
